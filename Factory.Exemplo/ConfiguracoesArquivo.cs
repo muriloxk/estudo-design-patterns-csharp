@@ -5,5 +5,10 @@
         public ConfiguracoesArquivo()
         {
         }
+
+        public string GetStringConnection()
+        {
+            return "";
+        }
     }
 }
