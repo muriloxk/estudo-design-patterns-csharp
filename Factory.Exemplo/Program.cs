@@ -15,6 +15,8 @@ namespace Factory.Exemplo
         }
     }
 
+ 
+
     public class FactoryConnection
     {
         //Classes SqlConnection e ConfiguracoesArquivo são hipotéticas;
