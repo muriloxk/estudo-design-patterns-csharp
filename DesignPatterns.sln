@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter.Exemplo", "Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor.Exemplo", "Visitor.Exemplo\Visitor.Exemplo.csproj", "{C6ED9D89-F1E8-4805-A312-68BD9038FACF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.Exemplo", "Bridge.Exemplo\Bridge.Exemplo.csproj", "{EDCFAA58-1A14-4B55-A7D4-F8C19CC3E313}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,5 +129,9 @@ Global
 		{C6ED9D89-F1E8-4805-A312-68BD9038FACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6ED9D89-F1E8-4805-A312-68BD9038FACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6ED9D89-F1E8-4805-A312-68BD9038FACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCFAA58-1A14-4B55-A7D4-F8C19CC3E313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCFAA58-1A14-4B55-A7D4-F8C19CC3E313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCFAA58-1A14-4B55-A7D4-F8C19CC3E313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCFAA58-1A14-4B55-A7D4-F8C19CC3E313}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
