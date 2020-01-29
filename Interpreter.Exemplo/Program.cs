@@ -76,4 +76,62 @@ namespace Interpreter.Exemplo
             return resultadoExpressao1 + resultadoExpressao2;
         }
     }
+
+    public class Multiplicacao : IExpressao
+    {
+        private IExpressao Esquerda { get; set; }
+        private IExpressao Direita { get; set; }
+
+        public Multiplicacao(IExpressao esquerda, IExpressao direita)
+        {
+            Esquerda = esquerda;
+            Direita = direita;
+        }
+
+        public int Avalia()
+        {
+            var resultadoExpressao1 = Esquerda.Avalia();
+            var resultadoExpressao2 = Direita.Avalia();
+
+            return resultadoExpressao1 * resultadoExpressao2;
+        }
+    }
+
+
+    public class Divisao : IExpressao
+    {
+        private IExpressao Esquerda { get; set; }
+        private IExpressao Direita { get; set; }
+
+        public Divisao(IExpressao esquerda, IExpressao direita)
+        {
+            Esquerda = esquerda;
+            Direita = direita;
+        }
+
+        public int Avalia()
+        {
+            var resultadoExpressao1 = Esquerda.Avalia();
+            var resultadoExpressao2 = Direita.Avalia();
+
+            return resultadoExpressao1 / resultadoExpressao2;
+        }
+    }
+
+
+
+    public class RaizQuadrada : IExpressao
+    {
+        private int Numero { get; set; }
+
+        public RaizQuadrada(IExpressao numero)
+        {
+            Numero = numero.Avalia();
+        }
+
+        public int Avalia()
+        {
+            return (int)Math.Sqrt(Numero);
+        }
+    }
 }
